@@ -1,0 +1,17 @@
+Package: RobustCNV
+Type: Package
+Title: A Package for Copy Number Variant Analysis of Targeted Capture
+        Sequencing Data
+Version: 0.0.0.9000
+Date: 2015-06-01
+Authors@R: person("Samuel", "Hunter", email = "shunter@gmail.com", role = c("cre", "aut"))
+Maintainer: Samuel S. Hunter <shunter@gmail.com>
+Description: A copy number variant tool using robust regression for normalization and DNAcopy for segmentation.
+License: Artistic-2.0
+LazyData: TRUE
+Imports: DNAcopy, MASS, IRanges, GenomicRanges,
+Suggests: WGCNA, knitr
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2015-09-03 14:21:36 UTC; shunter
+Author: Samuel Hunter [cre, aut]
